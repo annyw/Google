@@ -1,0 +1,218 @@
+ * {
+     box-sizing: border-box;
+     font-family: arial, sans-serif;
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ #nav {
+     height: 30px;
+     width: 100%;
+     position: absolute;
+     top: 15px;
+     display: block;
+ }
+ 
+ .text {
+     height: 30px;
+     float: left;
+ }
+ 
+ a {
+     text-decoration: none;
+     display: inline-block;
+ }
+ 
+ .text a {
+     margin-top: 3px;
+     font-size: 13px;
+     color: #000;
+     opacity: .75;
+     line-height: 24px;
+     padding-left: 15px;
+ }
+ 
+ a:hover {
+     text-decoration: underline;
+ }
+ 
+ .icons {
+     height: 30px;
+     display: inline-block;
+     position: relative;
+ }
+ 
+ #menu {
+     height: 30px;
+     width: 30px;
+     overflow: hidden;
+ }
+ 
+ .sprites {
+     background-image: url(img/google_nav.png);
+     display: inline-block;
+ }
+ 
+ .menuPosition {
+     width: 30px;
+     height: 30px;
+     opacity: .55;
+     background-position: -132px -38px;
+ }
+ 
+ .menuPosition:hover {
+     opacity: .85;
+ }
+ 
+ .notice {
+     height: 20px;
+     margin: 5px;
+     margin-bottom: 5px;
+     display: inline-block;
+     background-color: rgba(0, 0, 0, .55);
+     border-radius: 50%;
+ }
+ 
+ .noticePosition {
+     width: 20px;
+     height: 20px;
+     background-position: -194px -21px;
+ }
+ 
+ .notice:hover {
+     background-color: rgba(0, 0, 0, .85);
+ }
+ 
+ .menu,
+ .noticee {
+     display: inline-block;
+     padding-left: 15px;
+ }
+ 
+ .member {
+     height: 32px;
+     width: 32px;
+     display: inline-block;
+     border-radius: 50%;
+     overflow: hidden;
+     margin-left: 15px;
+ }
+ 
+ .self {
+     height: 32px;
+     width: 32px;
+     display: inline-block;
+     background-size: 32px 32px;
+     background-position: 50%;
+     background-image: url(img/photo.jpg);
+ }
+ 
+ .function {
+     padding-left: 30px;
+     padding-right: 30px;
+     float: right;
+ }
+ 
+ .logo {
+     width: 272px;
+     height: 92px;
+     margin: 0px auto;
+     margin-top: 198px;
+     margin-bottom: 32px;
+     background-image: url(img/google_logo_L.png);
+     -webkit-background-size: 272px;
+     background-size: 272px;
+ }
+ 
+ .logoText {
+     position: relative;
+     left: 215px;
+     top: 75px;
+     color: #4285f4;
+     font-size: 16px;
+ }
+ 
+ .search {
+     position: relative;
+     width: 586px;
+     height: 40px;
+     margin: 0px auto;
+     padding: 5px 9px 0;
+     border: 1px solid #d9d9d9;
+     background-color: #ffffff;
+     overflow: hidden;
+ }
+ 
+ .search:hover {
+     border: 1px solid #b9b9b9;
+     border-top-color: #a0a0a0;
+ }
+ 
+ input[type="text"] {
+     width: 525px;
+     border: 0px;
+     line-height: 26px;
+     font-size: 16px;
+     outline: none;
+ }
+ 
+ .aaa {
+     height: 24px;
+     width: 24px;
+     display: inline-block;
+     float: right;
+     background-image: url(img/sound.png);
+     -webkit-background-size: 24px;
+     background-size: 24px;
+     background-repeat: no-repeat;
+     vertical-align: middle;
+ }
+ 
+ .footer {
+     position: absolute;
+     width: 100%;
+     height: 41px;
+     bottom: 0px;
+     background-color: #f2f2f2;
+     border-top: 1px solid #e4e4e4;
+ }
+ 
+ #footerLeft {
+     position: relative;
+     margin: 0px auto;
+     margin-left: 3px;
+ }
+ 
+ .footerText {
+     font-size: 10pt;
+     line-height: 40px;
+     color: #666;
+     padding-left: 26px;
+     position: relative;
+     margin: 0px auto;
+ }
+ 
+ #footerRight {
+     position: relative;
+     margin-right: 30px;
+     float: right;
+ }
+ 
+ input[type="submit"] {
+     background-color: #f2f2f2;
+     border: 1px solid #f2f2f2;
+     border-radius: 2px;
+     height: 36px;
+     line-height: 27px;
+     color: #757575;
+     font-size: 13px;
+     font-weight: bold;
+     min-width: 54px;
+     margin: 11px 4px;
+     padding: 0px 16px;
+ }
+ 
+ .btn {
+     display: block;
+     margin: 0px auto;
+ }
